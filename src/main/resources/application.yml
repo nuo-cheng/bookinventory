@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: bookinventory
+consul:
+  client:
+    registration:
+      enabled: true
+    defaultZone: ${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}
+netty:
+  default:
+    allocator:
+      max-order: 3
