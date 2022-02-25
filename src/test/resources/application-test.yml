@@ -1,11 +1,7 @@
-micronaut:
-  application:
-    name: bookinventory
 consul:
   client:
     registration:
-      enabled: true
-    defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"
+      enabled: false
 #consul:
 #  client:
 #    registration:
